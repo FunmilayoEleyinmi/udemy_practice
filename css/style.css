@@ -204,6 +204,11 @@ img {
     padding-left: 1rem;
 }
 
+.board_part img{
+    height: 22vh;
+    width: 95%;
+}
+
 .board_part p {
     font-size: 0.7rem;
     font-weight: 200;
@@ -211,8 +216,8 @@ img {
     align-items: center;
 }
 
-.board_part a:hover {
-    text-decoration: none;
+.board_part img:hover {
+    background-color: gray;
 }
 
 .board_part button{
@@ -277,6 +282,11 @@ img {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem; 
     padding-left: 1.5rem;
+}
+
+.option img {
+    height: 22vh;
+    width: 90%;
 }
 
 .option a {
